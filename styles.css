@@ -1,0 +1,111 @@
+.index-body {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 150px;
+}
+
+.dreams-body {
+    padding-bottom: 50px;
+    background: linear-gradient(rgb(176 224 230), rgb(0 191 255), rgb(135 206 250), rgb(65, 206, 225));
+}
+
+body {
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+    margin: 0 auto;
+}
+
+.favorites {
+    display: flex;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.napis {
+    display: block;
+    font-size: 700px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0;
+    line-height: 550px;
+}
+
+.rodzina {
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    font-size: 500px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0;
+    line-height: 400px;
+    letter-spacing: 0.1px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.sny {
+    display: block;
+    font-size: 400px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0;
+    line-height: 350px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url("./assets/fotobudka.webp");
+    background-attachment: fixed;
+    background-position: 50% 15%;
+}
+
+.family {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url("./assets/family.jpg");
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: 77%;
+}
+
+.dreams {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url("./assets/fuerta.jpg");
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+
+.favorites-body {
+    max-width: min-content;
+}
